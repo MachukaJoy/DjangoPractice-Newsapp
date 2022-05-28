@@ -1,0 +1,8 @@
+{
+  "python.autoComplete.extraPaths": ["C:/Users/machu/.virtualenvs/The-Moringa-Tribune-rDvdyaRf/Lib/site-packages"],
+  "python.analysis.extraPaths": [
+    "C:/Users/machu/.virtualenvs/The-Moringa-Tribune-rDvdyaRf/Lib/site-packages"
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
+} 
