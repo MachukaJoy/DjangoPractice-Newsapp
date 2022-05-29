@@ -14,7 +14,7 @@
 
 -i https://pypi.org/simple
 
-beautifulsoup4==4.11.1; python_full_version >= '3.6'
+beautifulsoup4==4.11.1; python_full_version >= '3.6.0'
 
 config==0.5.1
 
