@@ -10,6 +10,12 @@ django-bootstrap4 = "*"
 psycopg2 = "==2.8.6"
 pillow = "*"
 python-dotenv = "*"
+gunicorn = "*"
+whitenoise = "*"
+django-heroku = "*"
+dj-database-url = "*"
+config = "*"
+python-decouple = "*"
 
 [dev-packages]
 pylint = "*"
