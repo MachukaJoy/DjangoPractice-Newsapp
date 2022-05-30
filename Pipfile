@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==1.11"
 django-bootstrap3 = "*"
 django-bootstrap4 = "*"
 psycopg2 = "==2.8.6"
@@ -16,6 +15,7 @@ django-heroku = "*"
 dj-database-url = "*"
 config = "*"
 python-decouple = "*"
+django = "==1.11.17"
 
 [dev-packages]
 pylint = "*"
