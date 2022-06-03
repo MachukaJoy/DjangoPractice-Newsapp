@@ -30,6 +30,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from decouple import config,Csv
 MODE=config("MODE", default="dev")
 SECRET_KEY = os.environ.get('SECRET_KEY')
+EMAIL_USE_TLS = config('EMAIL_USE_TLS')
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_PORT = config('EMAIL_PORT')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
@@ -50,7 +55,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'news',
-    'bootstrap4'
+    'bootstrap4',
+    'tinymce'
 ]
 
 MIDDLEWARE = [

@@ -15,7 +15,9 @@ django-heroku = "*"
 dj-database-url = "*"
 config = "*"
 python-decouple = "*"
-django = "==1.11.17"
+django-registration = "==2.4.1"
+django-tinymce = "*"
+django = "*"
 
 [dev-packages]
 pylint = "*"

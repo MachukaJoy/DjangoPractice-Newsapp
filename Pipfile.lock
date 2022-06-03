@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c1fd7a2df3a13f7b38341a518f9640f908ab5ea1357e9acf66e3229944a3e2d7"
+            "sha256": "ce8a90295fc07fba178636c3b1161ade0943ace8fe8432138d8c9ce44b3da66c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +32,13 @@
             "index": "pypi",
             "version": "==0.5.1"
         },
+        "confusable-homoglyphs": {
+            "hashes": [
+                "sha256:3b4a0d9fa510669498820c91a0bfc0c327568cecec90648cf3819d4a6fc6a751",
+                "sha256:e3ce611028d882b74a5faa69e3cbb5bd4dcd9f69936da6e73d33eda42c917944"
+            ],
+            "version": "==3.2.0"
+        },
         "dj-database-url": {
             "hashes": [
                 "sha256:4aeaeb1f573c74835b0686a2b46b85990571159ffc21aa57ecd4d1e1cb334163",
@@ -42,11 +49,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:a787ee66f4b4cf8ed753661cabcec603989677fa3a107fcb7f15511a44bdb483",
-                "sha256:f1a961b954d96bb24b397db4c35e9a128d12e044d6b57984c122282b592d508d"
+                "sha256:014e3392058d94f40569206a24523ce254d55ad2f9f46c6550b0fe2e4f94cf3f",
+                "sha256:4200aefb6678019a0acf0005cd14cfce3a5e6b9b90d06145fcdd2e474ad4329c"
             ],
             "index": "pypi",
-            "version": "==1.11.17"
+            "version": "==1.11.29"
         },
         "django-bootstrap3": {
             "hashes": [
@@ -71,6 +78,22 @@
             ],
             "index": "pypi",
             "version": "==0.3.1"
+        },
+        "django-registration": {
+            "hashes": [
+                "sha256:667b4fb49447227b62ff76693697d77acb85cadb87129fd1cb94481971e76c51",
+                "sha256:d446eec9dbab12f5a98baa1af6c1db08b56b66eec047dbadf8bec09ce2787a95"
+            ],
+            "index": "pypi",
+            "version": "==2.4.1"
+        },
+        "django-tinymce": {
+            "hashes": [
+                "sha256:275653dbf09fbd3347928757d6baf29040b42fe5c5d95396418c36aa4b1517eb",
+                "sha256:4241eb201c670892aa8980a130652f4ae818ba24702f078336296d25e9e1658b"
+            ],
+            "index": "pypi",
+            "version": "==3.4.0"
         },
         "gunicorn": {
             "hashes": [
